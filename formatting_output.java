@@ -9,6 +9,7 @@ public class formatting_output {
     // leading digits with zeroes.
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("================================");
         for (int i = 0; i < 3; i++) {
             String s1 = sc.next();
@@ -16,7 +17,7 @@ public class formatting_output {
             System.out.println(String.format("%-15s%03d", s1, x));
 
         }
-
+        sc.close();
         System.out.println("================================");
     }
 }
